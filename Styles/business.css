@@ -1,0 +1,64 @@
+
+
+body {
+    background-color: black;
+    
+    font-family: 'Unbounded', cursive;
+}
+
+h1 {
+    color: white;
+    
+}
+
+p {
+    color: rgb(255, 214, 10);
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+footer > p {
+    color: white;
+}
+
+.container {
+    height: 90vh;
+    
+}
+
+input {
+    width: 300px;
+}
+
+.log-in {
+    background-color: #8351e6;
+    border: none;
+}
+
+.sign-up {
+    background-color: #ed8d0e;
+    border:none;
+}
+
+h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    width: 200px;
+    height: 100px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.slogan {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}

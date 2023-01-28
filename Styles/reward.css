@@ -1,0 +1,368 @@
+
+
+body {
+    background-color: black;
+    
+    font-family: 'Unbounded', cursive;
+}
+
+h1 {
+    color: white;
+    
+}
+
+p {
+    color: white;
+}
+
+.btn {
+    border-radius: 50px;
+}
+h2 {
+    color: white;
+}
+
+footer > p {
+    color: white;
+}
+
+.container {
+    height: 90vh;
+    margin-top: 50px;
+}
+
+input {
+    width: 300px;
+}
+
+.log-in {
+    background-color: #8351e6;
+    border: none;
+}
+
+.sign-up {
+    background-color: #ed8d0e;
+    border:none;
+}
+
+h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    width: 450px;
+    height: 50px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slogan {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border: solid 5px white;
+}
+
+.about-user {
+    border: solid 5px white;
+}
+
+.user-icons {
+   
+    color:white;
+font-size: 48px;
+}
+
+.bi-suit-heart-fill {
+    color: #3bd16f;
+}
+
+.bi-trophy-fill {
+    color: #ed8d0e;
+}
+
+.plus-minus {
+    font-size: 24px;
+}
+
+.about-user {
+    height: 200px;
+}
+
+.save{
+    background-color: red;
+    border:none;
+    width: 200px;
+}
+
+.save:hover {
+    background-color: darkred;
+}
+
+a {
+    color: white;
+}
+
+.filters {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.art {
+    background-color: #3bd16f;
+    font-size: 36px;
+}
+
+.artist {
+    background-color:#8351e6;
+    font-size: 36px;
+}
+
+.exhibition {
+    background-color: #ed8d0e;
+    font-size: 36px;
+}
+
+.city {
+    background-color: blue;
+    font-size: 36px;
+}
+
+.description{
+    color: white;
+    border: solid 5px white;
+    border-radius: 15px;
+}
+
+.gallery-image {
+    height: 180px;
+    border-radius: 15px;
+}
+
+.gallery-name {
+    font-size: 18px;
+}
+
+.other-info {
+    font-size: 13px;
+}
+
+.heart {
+    color: white;
+    font-size: 40px;
+}
+
+.heart:hover {
+    color:#3bd16f;
+}
+
+.stars {
+    color:#8351e6;
+}
+
+.rating {
+    color: white;
+    font-size: 18px;
+}
+
+.rating i:hover {
+    color:#8351e6
+}
+
+.go-visit {
+    background-color: #8351e6;
+    border: none;
+}
+
+.meet-me {
+    background-color: #ed8d0e;
+    border:none;
+}
+
+.buy-art {
+    background-color: #3bd16f;
+    border: none;
+}
+
+.gallery-content{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+}
+
+.dots {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.dots-invisible {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.arrow-invisible {
+    color:transparent;
+}
+
+.row {
+    color: white;
+    font-size: 36px;
+    font-weight:  700;
+}
+
+.green-color {
+    background-color:#3bd16f;
+}
+
+.violet-color {
+    background-color:#8351e6
+}
+
+.start-now {
+    background-color: red;
+    border: none;
+}
+
+
+.search-city {
+    background-color: #3bd16f;
+}
+
+.blue-color {
+    background-color: blue;
+}
+
+.orange-color {
+    background-color: #ed8d0e;
+}
+
+.red-color {
+    background-color: red;
+}
+
+.detailed-info {
+    background-color: black;
+    color:white;
+    font-size: 24px;
+}
+
+#container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #1d1e22;
+    top: 0;
+    left: 0;
+  }
+  
+  .btn-tada {
+    padding: 12px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-image: linear-gradient(
+      90deg,
+      #03a9f4 0%,
+      #8bc34a 33.33%,
+      #ffc107 66.66%,
+      #ff5722 100%
+    );
+    background-size: 300% 100%;
+    background-position: 0% 0%;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .btn-tada:hover {
+    animation: background 1s ease-in-out infinite alternate;
+  }
+  
+  .paper {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    will-change: transform;
+    perspective: 500px;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateY(0deg) rotateX(0deg);
+    }
+  
+    100% {
+      transform: rotateY(1080deg) rotateX(360deg);
+    }
+  }
+  
+  @keyframes background {
+    0% {
+      background-position: 0% 0%;
+    }
+  
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
+  button {
+    background-color: transparent;
+  }
+
+  .trophy-container {
+    font-size: 280px;
+    position: relative;
+  }
+
+  .purple {
+    background-color:#8351e6;
+    border:none;
+  }
+
+  .green {
+    background-color: #3bd16f;
+    border:none;
+  }
+
+  .red {
+    background-color: red;
+    border: none;
+  }
+
+  .red:hover {
+    opacity: 0.7;
+    background-color: red;
+  }
+
+  .star {
+    position: absolute;
+    font-size: 26px;
+    top:150px;
+  }
+
+  .confetti {
+    width: 150px;
+    height: 150px;
+    background-color: #03a9f4;
+    border-radius: 50%;
+    font-size: 24px;
+  }
+

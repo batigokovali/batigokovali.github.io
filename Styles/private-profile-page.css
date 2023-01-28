@@ -1,0 +1,118 @@
+
+
+body {
+    background-color: black;
+    
+    font-family: 'Unbounded', cursive;
+}
+
+h1 {
+    color: white;
+    
+}
+
+p {
+    color: white;
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+footer > p {
+    color: white;
+}
+
+.container {
+    height: 90vh;
+    margin-top: 50px;
+}
+
+input {
+    width: 300px;
+}
+
+.log-in {
+    background-color: #8351e6;
+    border: none;
+}
+
+.sign-up {
+    background-color: #ed8d0e;
+    border:none;
+}
+
+h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slogan {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border: solid 5px white;
+}
+
+.about-user {
+    border: solid 5px white;
+}
+
+.user-icons {
+   
+    color:white;
+font-size: 48px;
+}
+
+.bi-star-fill {
+    color: #8351e6;
+}
+
+.bi-suit-heart-fill {
+    color: #3bd16f;
+}
+
+.bi-trophy-fill {
+    color: #ed8d0e;
+}
+
+.plus-minus {
+    font-size: 24px;
+}
+
+.about-user {
+    height: 200px;
+}
+
+.save{
+    background-color: red;
+    border:none;
+    width: 200px;
+}
+
+.save:hover {
+    background-color: darkred;
+}
+
+a {
+    color: white;
+}
+
+div i {
+    font-size: 24px;
+}
+
+.plus-minus {
+    color:white;
+}
